@@ -46,4 +46,14 @@
         "category": "Samsung",
         "blogpost": ""
     }
+    ,
+    {   
+        "image": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._SX679_.jpg",
+        "url" : "https://amzn.to/49GTXYm",
+        "title": "Apple iPhone 13 (128GB) - Starlight",
+        "category": "iPhone",
+        "blogpost": ""
+    }
+
+    
 ]
