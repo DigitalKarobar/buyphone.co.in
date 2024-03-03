@@ -1,11 +1,25 @@
-function readProducts(){
+
+function readProducts() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const category = urlParams.get('category');
+
     fetch('../data.json')
         .then(response => response.json())
         .then(data => {
-            const shuffledData = shuffleArray(data);
+            let shuffledData;
+            if (category) {
+                const filteredData = data.filter(product => product.category.toLowerCase() === category.toLowerCase());
+                shuffledData = shuffleArray(filteredData);
+            } else {
+                shuffledData = shuffleArray(data);
+            }
             showProduct(shuffledData);
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
         });
 }
+
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
