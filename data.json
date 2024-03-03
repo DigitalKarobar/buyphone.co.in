@@ -54,6 +54,34 @@
         "category": "iPhone",
         "blogpost": ""
     }
+    ,
+    {
+        "image": "https://m.media-amazon.com/images/I/71VW8LmqqPL._SL1500_.jpg",
+        "url" : "https://amzn.to/3ImnpHB",
+        "title": "Redmi Note 13 5G (Arctic White, 6GB RAM, 128GB Storage)",
+        "category": "Redmi",
+        "blogpost": ""
+        
+    }
+    ,
+    {
+        "image": "https://m.media-amazon.com/images/I/71tCOhEigtL._SL1500_.jpg",
+        "url" : "https://amzn.to/3uUaidt",
+        "title": "Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
+        "category": "Redmi",
+        "blogpost": ""
+        
+    }
+    ,
+    {
+        "image": "https://m.media-amazon.com/images/I/813ZN8Pj-HL._SL1500_.jpg",
+        "url" : "https://amzn.to/48LXnbG",
+        "title": "Redmi 13C 5G (Startrail Silver, 4GB RAM, 128GB Storage)",
+        "category": "Redmi",
+        "blogpost": ""
+        
+    }
+    
 
     
 ]

@@ -1,12 +1,21 @@
-
 function readProducts(){
     fetch('../data.json')
         .then(response => response.json())
-        .then(data => (showProduct(data)))
-
+        .then(data => {
+            const shuffledData = shuffleArray(data);
+            showProduct(shuffledData);
+        });
 }
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
 function displayProduct(product) {
-    console.log(product);
     const {image, url, title, category} = product;
     let html = `
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -30,17 +39,10 @@ function displayProduct(product) {
     `;
     let element = document.getElementById('products');
     element.innerHTML += html;
-
 }
-function showProduct(data) {
-    console.log(data);
-    data.map(product => displayProduct(product))
-    
-    // console.log(html);
-        // document.getElementsByClassName('products').innerHTML = html;
-        let element = document.getElementsByClassName('products');
-        element.innerHTML += "additional HTML codssdsadasdasdse<br><br><br><br><br>";
 
+function showProduct(data) {
+    data.map(product => displayProduct(product))
 }
 
 readProducts();
