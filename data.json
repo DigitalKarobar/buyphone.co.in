@@ -72,6 +72,14 @@
     }
     ,
     {
+        "image": "https://m.media-amazon.com/images/I/716fAVud8PL._SL1500_.jpg",
+        "url" : "https://amzn.to/3T0Mywj",
+        "title": "Apple iPhone 14 Plus (128 GB) - (Product) RED",
+        "category": "iPhone",
+        "blogpost": ""
+    }
+    ,
+    {
         "image": "https://m.media-amazon.com/images/I/81SigpJN1KL._SL1500_.jpg",
         "url" : "https://amzn.to/3P1uP6M",
         "title": "Apple iPhone 15 Pro (512 GB) - Blue Titanium",
@@ -110,6 +118,15 @@
         "url" : "https://amzn.to/48LXnbG",
         "title": "Redmi 13C 5G (Startrail Silver, 4GB RAM, 128GB Storage)",
         "category": "Redmi",
+        "blogpost": ""
+        
+    }
+    ,
+    {
+        "image": "https://m.media-amazon.com/images/I/51aZ1y+XuHL._SL1280_.jpg",
+        "url" : "https://amzn.to/4bYNGJp",
+        "title": "POCO C55 (Power Black, 6GB RAM, 128GB Storage)",
+        "category": "POCO",
         "blogpost": ""
         
     }
